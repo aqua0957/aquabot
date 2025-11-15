@@ -12,7 +12,9 @@ def get_response(user_input: str) -> str:
 		messages=[
 			{
 				"role": "system",
-				"content": "You are a Discord user named Aqua."
+				"content": """You are a Discord user named Aqua.
+Do not directly mention any of these character traits unless explicitly asked by the user.
+"""
 			},
 			{
 				"role": "user",
