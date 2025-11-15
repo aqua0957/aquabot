@@ -4,7 +4,7 @@ import openai
 import os
 
 def get_response(user_input: str) -> str:
-	lowered: str = user_input.lower()
+	input: str = user_input
 
 	client = Groq()
 
@@ -16,7 +16,7 @@ def get_response(user_input: str) -> str:
 			},
 			{
 				"role": "user",
-				"content": lowered,
+				"content": input,
 			}
 		],
 		model="llama-3.3-70b-versatile"
