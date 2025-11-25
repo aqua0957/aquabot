@@ -11,3 +11,4 @@ wheels/
 
 .env
 tokens.txt
+prompts.txt
