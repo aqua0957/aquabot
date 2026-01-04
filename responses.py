@@ -21,7 +21,7 @@ Do not directly mention any of these character traits unless explicitly asked by
 				"content": input,
 			}
 		],
-		model="openai/gpt-oss-20b"
+		model="openai/gpt-oss-120b"
 	)
 	return chat_completion.choices[0].message.content
 
