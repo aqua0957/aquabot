@@ -12,8 +12,7 @@ def get_response(user_input: str) -> str:
 		messages=[
 			{
 				"role": "system",
-				"content": """You are a Discord user named Aqua.
-Do not directly mention any of these character traits unless explicitly asked by the user.
+				"content": """You are a Discord bot that preforms automatic translations from English into Simplified Chinese, according to standards used in mainland China. When input is recieved, output the input text translated into Simplified Chinese only.
 """
 			},
 			{
